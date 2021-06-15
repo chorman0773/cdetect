@@ -30,7 +30,7 @@ pub fn find_cc() -> Option<PathBuf> {
             PathBuf::from("gcc")
         };
 
-        let mut names = vec![
+        let names = vec![
             cc_name,
             PathBuf::from("clang"),
             PathBuf::from("lccc"),
